@@ -1,6 +1,10 @@
 # Project-Rosetta
 Project Rosetta was developed for the NASA Space Apps Challenge 2025 under the theme “A World Away: Hunting for Exoplanets with AI.”
 
+<p align="center">
+  <img src="image.png" width="70%">
+</p>
+
 This model transforms exoplanet hunting into a transparent, explainable, and interactive AI experience by merging the precision of machine learning with the curiosity of human exploration. It an AI-powered, explainable system that detects potential exoplanets from stellar light curve data, the brightness variations of stars recorded by space telescopes like Kepler and TESS.
 Unlike typical “black-box” AI models, Rosetta not only identifies whether a signal indicates an exoplanet but also explains why it made that decision.
 🌌 The process works as follows:
@@ -40,10 +44,20 @@ Rosetta aims to democratize exoplanet discovery by combining accuracy with inter
 - Presents interactive, science-driven visualizations with an intuitive “mission control” UI theme.
 - Translates complex exoplanet signals into interpretable visual stories, enabling non-experts to grasp AI reasoning.
   
-🧩 Team Considerations
+## Team Considerations
+
 During development, the team focused on:
-⚖️ Balancing data: Addressing the extreme class imbalance between exoplanets and non-exoplanets using SMOTE.
-🔍 Scientific transparency: Prioritizing explainability and interpretability over raw accuracy.
-🧠 User experience: Designing a clean, immersive dashboard for space scientists and students alike.
-⚙️ Scalability: Structuring the backend to support future models or telescope data (e.g., TESS, JWST).
-🧩 Modularity: Ensuring that ML, CNN, and visualization components can evolve independently.
+
+- Balancing data: Addressing the extreme class imbalance between exoplanets and non-exoplanets using SMOTE.
+- Scientific transparency: Prioritizing explainability and interpretability over raw accuracy.
+- User experience: Designing a clean, immersive dashboard for space scientists and students alike.
+- Scalability: Structuring the backend to support future models or telescope data (e.g., TESS, JWST).
+- Modularity: Ensuring that ML, CNN, and visualization components can evolve independently.
+
+## Team
+
+- S Akash [ EE @ IIT Patna ]
+- Faizan Khan [ PH @ IIT Delhi ] 
+- Priyanshu [ CS @ GGSIPU ]
+- Sobia Raza [ Aero @ Amity ]
+- Midushi [ CS @ IGDTW ]
