@@ -5,8 +5,11 @@ Project Rosetta was developed for the NASA Space Apps Challenge 2025 under the t
   <img src="image.png" width="70%">
 </p>
 
+Extensive Literature Survey : [notion](https://www.notion.so/Literature-Survey-282ee35adcd580eba492e651450392cf?source=copy_link)
+
 This model transforms exoplanet hunting into a transparent, explainable, and interactive AI experience by merging the precision of machine learning with the curiosity of human exploration. It an AI-powered, explainable system that detects potential exoplanets from stellar light curve data, the brightness variations of stars recorded by space telescopes like Kepler and TESS.
 Unlike typical “black-box” AI models, Rosetta not only identifies whether a signal indicates an exoplanet but also explains why it made that decision.
+
 🌌 The process works as follows:
 1. The user uploads stellar flux data (.csv) through a React-based dashboard.
 2. The Flask backend processes the file, applies preprocessing (noise filtering, normalization, and balancing), and runs machine learning or deep learning models trained on NASA’s Kepler dataset.
